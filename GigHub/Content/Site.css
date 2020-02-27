@@ -28,6 +28,25 @@ span.field-validation-error {
     font-weight: bold;
 }
 
+.voffset {
+    margin-top: 2px;
+}
+.voffset1 {
+    margin-top: 5px;
+}
+.voffset2 {
+    margin-top: 10px;
+}
+.voffset3 {
+    margin-top: 20px;
+}
+.voffset4 {
+    margin-top: 40px;
+}
+.voffset5 {
+    margin-top: 80px;
+}
+
 /* Bootstrap Overrides */
 
 .navbar-inverse {
@@ -78,8 +97,8 @@ h6,
 }
 
 .btn {
-    font-size: 17px;
-    padding: 7px 20px;
+    /*font-size: 17px;
+    padding: 7px 20px;*/
     border-radius: 9px;
 }
 
@@ -114,7 +133,6 @@ h6,
     color: white;
     text-align: center;
     width: 60px;
-    -ms-border-radius: 8px;
     border-radius: 8px;
 }
 
@@ -135,7 +153,7 @@ h6,
 .gigs > li .details {
     position: absolute;
     top: 0;
-    left: 70;
+    left: 70px;
 }
 
 .gigs > li .details .artist {
